@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: micrometer-metrics-poc
+
+management:
+  metrics:
+    export:
+      influx:
+        uri: http://localhost:8086
+        db: app
+        step: 10s
+        autoCreateDb: true

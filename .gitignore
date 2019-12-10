@@ -1,0 +1,11 @@
+target/
+!**/src/main/**
+!**/src/test/**
+
+docker-local/influxdb-data
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
